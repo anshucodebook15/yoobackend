@@ -8,7 +8,7 @@ class Utils {
     const number = Math.floor(Math.random() * digits) + 1;
     return number;
   };
-  
+
 }
 
 module.exports = new Utils();
