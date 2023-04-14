@@ -1,0 +1,4 @@
+exports.INVALID_SUBSCRIPTION = 301;
+exports.INVALID_REQUEST = 300;
+exports.BAD_REQUEST = 300;
+exports.USER_EXITS = 403;

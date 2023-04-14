@@ -1,0 +1,4 @@
+// Aggregations
+
+1. Extract only data which is required 
+like if single object data has 10 properties but we need only 
