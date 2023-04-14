@@ -2,7 +2,7 @@ const CONFIG = require("./Config");
 const MOD = require("./module");
 const ROUTERS = require("./Routes");
 const { UTILS, CRUD } = require("./Utils");
-const { logMsg } = require("./Utils/Utils");
+
 
 class Server {
   app = MOD.EXPRESS();

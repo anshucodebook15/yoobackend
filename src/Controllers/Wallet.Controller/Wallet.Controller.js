@@ -1,6 +1,5 @@
 const { Trycatch } = require("../../Middlewares");
 const MODELS = require("../../Models");
-const { logMsg } = require("../../Utils/Utils");
 
 class WalletC {
     CREATE = Trycatch(async (req, res, next) => {
@@ -29,22 +28,6 @@ class WalletC {
         Response(res, 200, data);
     };
 
-    // UPDATE = async (req, res, next) => {
-    //     const { id } = req.body;
-
-    //     const data = await MODELS.Wallet.findByIdAndUpdate({ _id: id });
-
-    //     Response(res, 200, data);
-    // };
-
-    // DELETE = async (req, res, next) => {
-
-    //     const { id } = req.body;
-
-    //     const data = await MODELS.Wallet.findByIdAndDelete({ _id: id });
-
-    //     Response(res, 200, data);
-    // };
 }
 
 module.exports = new WalletC();

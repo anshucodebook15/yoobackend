@@ -5,6 +5,9 @@ const {
 const AppError = require("./Errors/Customclass.Error");
 const { Errorhandler } = require("./Errors/Handler.Error");
 const { Trycatch } = require("./Errors/Trycatch.Error");
+
+
+
 const { verifyJWT, generateToken } = require("./JWT/verify.JWT");
 
 module.exports = {
@@ -13,6 +16,5 @@ module.exports = {
   Trycatch,
   Errorhandler,
   AppError,
-  verifyJWT,
-  generateToken,
+ 
 };
